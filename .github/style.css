@@ -1,0 +1,82 @@
+/* Mobile first */
+
+body {
+    background-color: rgb(5, 0, 12);
+    color: rgb(199, 139, 255);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#textInput {
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(199, 139, 255);
+    margin-top: 25px;
+}
+
+#countButton {
+    margin: 20px;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(199, 139, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+#lettersDiv {
+    width: 300px;
+}
+
+#wordsDiv {
+    width: 300px;
+}
+
+/* Tablet */
+@media screen and (min-width: 550px) {
+    #textInput {
+        width: 500px;
+    }
+
+    #countButton {
+        padding: 10px 70px;
+    }
+
+    #lettersDiv {
+        width: 500px;
+    }
+
+    #wordsDiv {
+        width: 500px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) {
+    #textInput {
+        width: 600px;
+    }
+
+    #countButton {
+        padding: 10px 70px;
+    }
+
+    #lettersDiv {
+        width: 600px;
+    }
+
+    #wordsDiv {
+        width: 600px;
+    }
+}
